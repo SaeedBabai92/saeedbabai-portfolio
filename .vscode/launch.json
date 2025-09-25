@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: Portfolio.Web [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\src\\Portfolio.Web\\Portfolio.Web.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        }
+    ]
+}

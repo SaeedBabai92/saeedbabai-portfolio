@@ -1,0 +1,14 @@
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\bin\Debug\net8.0\Portfolio.Shared.deps.json
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\bin\Debug\net8.0\Portfolio.Shared.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\bin\Debug\net8.0\Portfolio.Shared.pdb
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.AssemblyInfoInputs.cache
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.AssemblyInfo.cs
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.csproj.CoreCompileInputs.cache
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.sourcelink.json
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\refint\Portfolio.Shared.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.pdb
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\ref\Portfolio.Shared.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\obj\Debug\net8.0\Portfolio.Shared.xml
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Shared\bin\Debug\net8.0\Portfolio.Shared.xml

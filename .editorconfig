@@ -1,0 +1,4 @@
+root = true
+
+[*.cs]
+file_header_template = Licensed under the MIT License.\n See LICENSE in the project root for license information.\n (c) {year} Saeed Babai — https://github.com/youruser

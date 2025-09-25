@@ -1,0 +1,14 @@
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\bin\Debug\net8.0\Portfolio.Contracts.deps.json
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\bin\Debug\net8.0\Portfolio.Contracts.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\bin\Debug\net8.0\Portfolio.Contracts.pdb
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.AssemblyInfoInputs.cache
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.AssemblyInfo.cs
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.sourcelink.json
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\refint\Portfolio.Contracts.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.pdb
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\ref\Portfolio.Contracts.dll
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\obj\Debug\net8.0\Portfolio.Contracts.xml
+C:\Users\saeed\OneDrive\portfolio\saeedbabai-portfolio\src\Portfolio.Contracts\bin\Debug\net8.0\Portfolio.Contracts.xml
