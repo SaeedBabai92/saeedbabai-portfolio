@@ -1,0 +1,19 @@
+# .NET / Blazor
+**/bin/
+**/obj/
+*.dll
+*.pdb
+
+# User-specific / temp
+*.user
+*.suo
+*.cache
+*.log
+
+# IDE
+.vs/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
