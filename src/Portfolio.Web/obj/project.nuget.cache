@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j0P4wj+cLxA=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\saeed\\OneDrive\\portfolio\\saeedbabai-portfolio\\src\\Portfolio.Web\\Portfolio.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
