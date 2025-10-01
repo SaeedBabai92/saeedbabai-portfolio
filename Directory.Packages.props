@@ -2,8 +2,11 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.8" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Localization" Version="9.0.9" />
   </ItemGroup>
 </Project>

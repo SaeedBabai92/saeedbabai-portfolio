@@ -1,27 +1,25 @@
-﻿# Saeed Babai Portfolio
+# Portfolio
 
-## Yleiskuvaus
-Blazor-pohjainen portfolio, jonka tarkoitus on esitellä useita projekteja ja niiden taustalla oleva osaaminen yhden modernin sovelluksen kautta. Ratkaisu on suunniteltu helppoon jatkokehitykseen ja modulaariseen projektinhallintaan.
+Moderni Blazor Server -pohjainen työnhakuportfolio, joka asettaa kerrosarkkitehtuurin valmiiksi jatkokehitystä varten. Tavoitteena on pitää ratkaisu kevyenä nyt, mutta antaa selkeät paikat liiketoimintalogiikalle, tietokannalle ja rajapinnoille myöhemmin.
 
-## Ratkaisun rakenne
-- Domain
-- Application
-- Infrastructure
-- Contracts
-- Shared
-- Web
+## Rakenne
+- `src/Portfolio.Web` – selainkerros (feature-pohjaiset sivut, lokalisointi, layoutit)
+- `src/Portfolio.Application` – sovelluslogiikan rajapinnat ja palvelut
+- `src/Portfolio.DAL` – tietokerroksen varaus (EF Core InMemory placeholder, repository-rata)
+- `src/Portfolio.Contracts` – DTO:t, enumit ja abstrahoidut sopimukset kerrosten välillä
 
-## Paikallinen ajo
-1. Asenna .NET SDK (suositus: versio 8.0 tai uudempi).
-2. Siirry projektin juureen.
-3. Suorita `dotnet build` varmistuaksesi, että ratkaisu kääntyy.
-4. Käynnistä sovellus komennolla `dotnet run --project src/Web` (päivitä polku tarvittaessa vastaamaan Web-projektin sijaintia).
-5. Avaa selaimessa `https://localhost:5001` (tai konsolin ilmoittama osoite).
+## Kehittäjän pikaohje
+1. Asenna .NET SDK 8.0 tai uudempi.
+2. Suorita `dotnet restore` ja `dotnet build` ratkaisun juuresta varmistaaksesi asetukset.
+3. Aja sovellus komennolla `dotnet run --project src/Portfolio.Web/Portfolio.Web.csproj` tai käytä VS Code F5 -komentosarjaa.
+4. Selain avautuu osoitteeseen `https://localhost:7267` (launchSettings asettaa myös HTTP-portin 5147).
 
-## Demot ja referenssit
-- Live-demo: *Tulossa*
-- Projektikohtaiset esittelyt: *Tulossa*
-- Videoesittely: *Tulossa*
+## Lokalisaatio
+- Oletuskulttuuri: `fi-FI`, fallback: `en-US`.
+- Yhteiset tekstit `Resources/SharedResource(.resx/.fi.resx)` ja sivukohtaiset resurssit `Features/<Feature>/<Feature>Page.*.resx`.
+- TODO: siirrä kulttuuriasetukset ja siemen-data oikeaan tietokantaan, kun ympäristöt on päätetty.
 
-## Lisenssi
-Tämä projekti on lisensoitu MIT-lisenssillä. Katso lisätiedot tiedostosta `LICENSE`.
+## Seuraavat askeleet
+- Korvaa placeholder-palvelut oikealla datahaulla (DAL + ulkoiset integraatiot).
+- Rakenna validoinnit ja mapperit, kun DTO:t tarkentuvat.
+- Laajenna UI-tyylejä design systemin mukaisiksi ennen tuotantojulkaisua.

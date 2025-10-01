@@ -1,0 +1,16 @@
+@using Portfolio.Web.Features.Resources
+@inject IStringLocalizer<SharedResource> Localizer
+
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="routeData" DefaultLayout="typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="routeData" Selector="main" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="typeof(MainLayout)">
+            <section class="app-content">
+                <p class="app-notfound">@Localizer["Route_NotFound"]</p>
+            </section>
+        </LayoutView>
+    </NotFound>
+</Router>

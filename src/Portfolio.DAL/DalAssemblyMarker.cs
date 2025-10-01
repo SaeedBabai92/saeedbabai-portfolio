@@ -2,9 +2,9 @@
 // See LICENSE in the project root for license information.
 // (c) 2025 Saeed Babai ? https://github.com/youruser
 
-namespace Portfolio.Contracts;
+namespace Portfolio.DAL;
 
-internal static class ContractsAssemblyMarker
+internal static class DalAssemblyMarker
 {
-    // TODO: Use as marker when wiring MediatR or mapping profiles.
+    // TODO: Use this marker for assembly scanning when DAL services are implemented.
 }
