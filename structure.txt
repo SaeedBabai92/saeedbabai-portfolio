@@ -1,0 +1,429 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is E82C-2F61
+C:.
+¦   .editorconfig
+¦   .gitignore
+¦   .gitmessage
+¦   CONTRIBUTING.md
+¦   Directory.Build.props
+¦   Directory.Packages.props
+¦   LICENSE
+¦   Portfolio.sln
+¦   README.md
+¦   structure.txt
+¦   
++---.github
+¦   ¦   pull_request_template.md
+¦   ¦   
+¦   +---workflows
+¦           ci.yml
+¦           
++---.vscode
+¦       launch.json
+¦       
++---src
+    +---Portfolio.Application
+    ¦   ¦   ApplicationAssemblyMarker.cs
+    ¦   ¦   DependencyInjection.cs
+    ¦   ¦   Portfolio.Application.csproj
+    ¦   ¦   
+    ¦   +---bin
+    ¦   ¦   +---Debug
+    ¦   ¦       +---net8.0
+    ¦   ¦               Portfolio.Application.deps.json
+    ¦   ¦               Portfolio.Application.dll
+    ¦   ¦               Portfolio.Application.pdb
+    ¦   ¦               Portfolio.Application.xml
+    ¦   ¦               Portfolio.Contracts.dll
+    ¦   ¦               Portfolio.Contracts.pdb
+    ¦   ¦               Portfolio.Contracts.xml
+    ¦   ¦               Portfolio.DAL.dll
+    ¦   ¦               Portfolio.DAL.pdb
+    ¦   ¦               Portfolio.DAL.xml
+    ¦   ¦               
+    ¦   +---Interfaces
+    ¦   ¦       IHeroContentProvider.cs
+    ¦   ¦       
+    ¦   +---Mapping
+    ¦   ¦       ApplicationMappingProfile.cs
+    ¦   ¦       
+    ¦   +---obj
+    ¦   ¦   ¦   Portfolio.Application.csproj.nuget.dgspec.json
+    ¦   ¦   ¦   Portfolio.Application.csproj.nuget.g.props
+    ¦   ¦   ¦   Portfolio.Application.csproj.nuget.g.targets
+    ¦   ¦   ¦   project.assets.json
+    ¦   ¦   ¦   project.nuget.cache
+    ¦   ¦   ¦   
+    ¦   ¦   +---Debug
+    ¦   ¦       +---net8.0
+    ¦   ¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ¦   ¦           ¦   Portfoli.B086831A.Up2Date
+    ¦   ¦           ¦   Portfolio.Application.AssemblyInfo.cs
+    ¦   ¦           ¦   Portfolio.Application.AssemblyInfoInputs.cache
+    ¦   ¦           ¦   Portfolio.Application.assets.cache
+    ¦   ¦           ¦   Portfolio.Application.csproj.AssemblyReference.cache
+    ¦   ¦           ¦   Portfolio.Application.csproj.CoreCompileInputs.cache
+    ¦   ¦           ¦   Portfolio.Application.csproj.FileListAbsolute.txt
+    ¦   ¦           ¦   Portfolio.Application.dll
+    ¦   ¦           ¦   Portfolio.Application.GeneratedMSBuildEditorConfig.editorconfig
+    ¦   ¦           ¦   Portfolio.Application.GlobalUsings.g.cs
+    ¦   ¦           ¦   Portfolio.Application.pdb
+    ¦   ¦           ¦   Portfolio.Application.sourcelink.json
+    ¦   ¦           ¦   Portfolio.Application.xml
+    ¦   ¦           ¦   
+    ¦   ¦           +---ref
+    ¦   ¦           ¦       Portfolio.Application.dll
+    ¦   ¦           ¦       
+    ¦   ¦           +---refint
+    ¦   ¦                   Portfolio.Application.dll
+    ¦   ¦                   
+    ¦   +---Services
+    ¦   ¦       HeroContentProvider.cs
+    ¦   ¦       
+    ¦   +---Validators
+    ¦           PlaceholderValidator.cs
+    ¦           
+    +---Portfolio.Contracts
+    ¦   ¦   ContractsAssemblyMarker.cs
+    ¦   ¦   Portfolio.Contracts.csproj
+    ¦   ¦   
+    ¦   +---Abstractions
+    ¦   ¦       IExternalResourceLink.cs
+    ¦   ¦       
+    ¦   +---bin
+    ¦   ¦   +---Debug
+    ¦   ¦       +---net8.0
+    ¦   ¦               Portfolio.Contracts.deps.json
+    ¦   ¦               Portfolio.Contracts.dll
+    ¦   ¦               Portfolio.Contracts.pdb
+    ¦   ¦               Portfolio.Contracts.xml
+    ¦   ¦               
+    ¦   +---DTOs
+    ¦   ¦       SampleDto.cs
+    ¦   ¦       
+    ¦   +---Enums
+    ¦   ¦       ExperienceLevel.cs
+    ¦   ¦       
+    ¦   +---obj
+    ¦       ¦   Portfolio.Contracts.csproj.nuget.dgspec.json
+    ¦       ¦   Portfolio.Contracts.csproj.nuget.g.props
+    ¦       ¦   Portfolio.Contracts.csproj.nuget.g.targets
+    ¦       ¦   project.assets.json
+    ¦       ¦   project.nuget.cache
+    ¦       ¦   
+    ¦       +---Debug
+    ¦           +---net8.0
+    ¦               ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ¦               ¦   Portfolio.Contracts.AssemblyInfo.cs
+    ¦               ¦   Portfolio.Contracts.AssemblyInfoInputs.cache
+    ¦               ¦   Portfolio.Contracts.assets.cache
+    ¦               ¦   Portfolio.Contracts.csproj.CoreCompileInputs.cache
+    ¦               ¦   Portfolio.Contracts.csproj.FileListAbsolute.txt
+    ¦               ¦   Portfolio.Contracts.dll
+    ¦               ¦   Portfolio.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+    ¦               ¦   Portfolio.Contracts.GlobalUsings.g.cs
+    ¦               ¦   Portfolio.Contracts.pdb
+    ¦               ¦   Portfolio.Contracts.sourcelink.json
+    ¦               ¦   Portfolio.Contracts.xml
+    ¦               ¦   
+    ¦               +---ref
+    ¦               ¦       Portfolio.Contracts.dll
+    ¦               ¦       
+    ¦               +---refint
+    ¦                       Portfolio.Contracts.dll
+    ¦                       
+    +---Portfolio.DAL
+    ¦   ¦   DalAssemblyMarker.cs
+    ¦   ¦   DependencyInjection.cs
+    ¦   ¦   Portfolio.DAL.csproj
+    ¦   ¦   PortfolioDbContext.cs
+    ¦   ¦   
+    ¦   +---bin
+    ¦   ¦   +---Debug
+    ¦   ¦       +---net8.0
+    ¦   ¦               Portfolio.Application.dll
+    ¦   ¦               Portfolio.Application.pdb
+    ¦   ¦               Portfolio.Application.xml
+    ¦   ¦               Portfolio.Contracts.dll
+    ¦   ¦               Portfolio.Contracts.pdb
+    ¦   ¦               Portfolio.Contracts.xml
+    ¦   ¦               Portfolio.DAL.deps.json
+    ¦   ¦               Portfolio.DAL.dll
+    ¦   ¦               Portfolio.DAL.pdb
+    ¦   ¦               Portfolio.DAL.xml
+    ¦   ¦               Portfolio.Domain.dll
+    ¦   ¦               Portfolio.Domain.pdb
+    ¦   ¦               Portfolio.Domain.xml
+    ¦   ¦               Portfolio.Infrastructure.deps.json
+    ¦   ¦               Portfolio.Infrastructure.dll
+    ¦   ¦               Portfolio.Infrastructure.pdb
+    ¦   ¦               Portfolio.Infrastructure.xml
+    ¦   ¦               Portfolio.Shared.dll
+    ¦   ¦               Portfolio.Shared.pdb
+    ¦   ¦               Portfolio.Shared.xml
+    ¦   ¦               
+    ¦   +---Configurations
+    ¦   ¦       DemoResourceConfiguration.cs
+    ¦   ¦       
+    ¦   +---Entities
+    ¦   ¦       DemoResource.cs
+    ¦   ¦       
+    ¦   +---Migrations
+    ¦   ¦       .gitkeep
+    ¦   ¦       
+    ¦   +---obj
+    ¦   ¦   ¦   Portfolio.DAL.csproj.nuget.dgspec.json
+    ¦   ¦   ¦   Portfolio.DAL.csproj.nuget.g.props
+    ¦   ¦   ¦   Portfolio.DAL.csproj.nuget.g.targets
+    ¦   ¦   ¦   Portfolio.Infrastructure.csproj.nuget.dgspec.json
+    ¦   ¦   ¦   Portfolio.Infrastructure.csproj.nuget.g.props
+    ¦   ¦   ¦   Portfolio.Infrastructure.csproj.nuget.g.targets
+    ¦   ¦   ¦   project.assets.json
+    ¦   ¦   ¦   project.nuget.cache
+    ¦   ¦   ¦   
+    ¦   ¦   +---Debug
+    ¦   ¦       +---net8.0
+    ¦   ¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ¦   ¦           ¦   Portfoli.58653777.Up2Date
+    ¦   ¦           ¦   Portfoli.D1057275.Up2Date
+    ¦   ¦           ¦   Portfolio.DAL.AssemblyInfo.cs
+    ¦   ¦           ¦   Portfolio.DAL.AssemblyInfoInputs.cache
+    ¦   ¦           ¦   Portfolio.DAL.assets.cache
+    ¦   ¦           ¦   Portfolio.DAL.csproj.AssemblyReference.cache
+    ¦   ¦           ¦   Portfolio.DAL.csproj.CoreCompileInputs.cache
+    ¦   ¦           ¦   Portfolio.DAL.csproj.FileListAbsolute.txt
+    ¦   ¦           ¦   Portfolio.DAL.dll
+    ¦   ¦           ¦   Portfolio.DAL.GeneratedMSBuildEditorConfig.editorconfig
+    ¦   ¦           ¦   Portfolio.DAL.GlobalUsings.g.cs
+    ¦   ¦           ¦   Portfolio.DAL.pdb
+    ¦   ¦           ¦   Portfolio.DAL.sourcelink.json
+    ¦   ¦           ¦   Portfolio.DAL.xml
+    ¦   ¦           ¦   Portfolio.Infrastructure.AssemblyInfo.cs
+    ¦   ¦           ¦   Portfolio.Infrastructure.AssemblyInfoInputs.cache
+    ¦   ¦           ¦   Portfolio.Infrastructure.assets.cache
+    ¦   ¦           ¦   Portfolio.Infrastructure.csproj.AssemblyReference.cache
+    ¦   ¦           ¦   Portfolio.Infrastructure.csproj.CoreCompileInputs.cache
+    ¦   ¦           ¦   Portfolio.Infrastructure.csproj.FileListAbsolute.txt
+    ¦   ¦           ¦   Portfolio.Infrastructure.dll
+    ¦   ¦           ¦   Portfolio.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+    ¦   ¦           ¦   Portfolio.Infrastructure.GlobalUsings.g.cs
+    ¦   ¦           ¦   Portfolio.Infrastructure.pdb
+    ¦   ¦           ¦   Portfolio.Infrastructure.sourcelink.json
+    ¦   ¦           ¦   Portfolio.Infrastructure.xml
+    ¦   ¦           ¦   
+    ¦   ¦           +---ref
+    ¦   ¦           ¦       Portfolio.DAL.dll
+    ¦   ¦           ¦       Portfolio.Infrastructure.dll
+    ¦   ¦           ¦       
+    ¦   ¦           +---refint
+    ¦   ¦                   Portfolio.DAL.dll
+    ¦   ¦                   Portfolio.Infrastructure.dll
+    ¦   ¦                   
+    ¦   +---Repositories
+    ¦   ¦       DemoResourceRepository.cs
+    ¦   ¦       IDemoResourceRepository.cs
+    ¦   ¦       
+    ¦   +---Seed
+    ¦           DatabaseSeeder.cs
+    ¦           
+    +---Portfolio.Web
+        ¦   App.razor
+        ¦   appsettings.Development.json
+        ¦   appsettings.json
+        ¦   Portfolio.Web.csproj
+        ¦   Program.cs
+        ¦   _Imports.razor
+        ¦   
+        +---bin
+        ¦   +---Debug
+        ¦       +---net8.0
+        ¦           ¦   appsettings.Development.json
+        ¦           ¦   appsettings.json
+        ¦           ¦   Microsoft.EntityFrameworkCore.Abstractions.dll
+        ¦           ¦   Microsoft.EntityFrameworkCore.dll
+        ¦           ¦   Microsoft.EntityFrameworkCore.InMemory.dll
+        ¦           ¦   Portfolio.Application.dll
+        ¦           ¦   Portfolio.Application.pdb
+        ¦           ¦   Portfolio.Application.xml
+        ¦           ¦   Portfolio.Contracts.dll
+        ¦           ¦   Portfolio.Contracts.pdb
+        ¦           ¦   Portfolio.Contracts.xml
+        ¦           ¦   Portfolio.DAL.dll
+        ¦           ¦   Portfolio.DAL.pdb
+        ¦           ¦   Portfolio.DAL.xml
+        ¦           ¦   Portfolio.Web.deps.json
+        ¦           ¦   Portfolio.Web.dll
+        ¦           ¦   Portfolio.Web.exe
+        ¦           ¦   Portfolio.Web.pdb
+        ¦           ¦   Portfolio.Web.runtimeconfig.json
+        ¦           ¦   Portfolio.Web.staticwebassets.runtime.json
+        ¦           ¦   Portfolio.Web.xml
+        ¦           ¦   
+        ¦           +---fi
+        ¦                   Portfolio.Web.resources.dll
+        ¦                   
+        +---Components
+        ¦   +---Common
+        ¦   ¦       .gitkeep
+        ¦   ¦       
+        ¦   +---Forms
+        ¦   ¦       .gitkeep
+        ¦   ¦       
+        ¦   +---Navigation
+        ¦           NavMenu.razor
+        ¦           NavMenu.razor.css
+        ¦           
+        +---Features
+        ¦   +---About
+        ¦   ¦       AboutPage.fi.resx
+        ¦   ¦       AboutPage.razor
+        ¦   ¦       AboutPage.razor.cs
+        ¦   ¦       AboutPage.razor.css
+        ¦   ¦       AboutPage.resx
+        ¦   ¦       
+        ¦   +---Contact
+        ¦   ¦       ContactPage.fi.resx
+        ¦   ¦       ContactPage.razor
+        ¦   ¦       ContactPage.razor.cs
+        ¦   ¦       ContactPage.razor.css
+        ¦   ¦       ContactPage.resx
+        ¦   ¦       
+        ¦   +---Demos
+        ¦   ¦       DemosPage.fi.resx
+        ¦   ¦       DemosPage.razor
+        ¦   ¦       DemosPage.razor.cs
+        ¦   ¦       DemosPage.razor.css
+        ¦   ¦       DemosPage.resx
+        ¦   ¦       
+        ¦   +---Home
+        ¦           HomePage.razor
+        ¦           HomePage.razor.cs
+        ¦           HomePage.razor.css
+        ¦           
+        +---Layout
+        ¦       MainLayout.razor
+        ¦       MainLayout.razor.css
+        ¦       
+        +---obj
+        ¦   ¦   Portfolio.Web.csproj.nuget.dgspec.json
+        ¦   ¦   Portfolio.Web.csproj.nuget.g.props
+        ¦   ¦   Portfolio.Web.csproj.nuget.g.targets
+        ¦   ¦   project.assets.json
+        ¦   ¦   project.nuget.cache
+        ¦   ¦   
+        ¦   +---Debug
+        ¦       +---net8.0
+        ¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+        ¦           ¦   apphost.exe
+        ¦           ¦   Portfoli.3BFC0969.Up2Date
+        ¦           ¦   Portfolio.Web.AssemblyInfo.cs
+        ¦           ¦   Portfolio.Web.AssemblyInfoInputs.cache
+        ¦           ¦   Portfolio.Web.assets.cache
+        ¦           ¦   Portfolio.Web.csproj.AssemblyReference.cache
+        ¦           ¦   Portfolio.Web.csproj.CoreCompileInputs.cache
+        ¦           ¦   Portfolio.Web.csproj.FileListAbsolute.txt
+        ¦           ¦   Portfolio.Web.csproj.GenerateResource.cache
+        ¦           ¦   Portfolio.Web.dll
+        ¦           ¦   Portfolio.Web.Features.About.AboutPage.fi.resources
+        ¦           ¦   Portfolio.Web.Features.About.AboutPage.resources
+        ¦           ¦   Portfolio.Web.Features.Contact.ContactPage.fi.resources
+        ¦           ¦   Portfolio.Web.Features.Contact.ContactPage.resources
+        ¦           ¦   Portfolio.Web.Features.Demos.DemosPage.fi.resources
+        ¦           ¦   Portfolio.Web.Features.Demos.DemosPage.resources
+        ¦           ¦   Portfolio.Web.GeneratedMSBuildEditorConfig.editorconfig
+        ¦           ¦   Portfolio.Web.genruntimeconfig.cache
+        ¦           ¦   Portfolio.Web.GlobalUsings.g.cs
+        ¦           ¦   Portfolio.Web.MvcApplicationPartsAssemblyInfo.cache
+        ¦           ¦   Portfolio.Web.pdb
+        ¦           ¦   Portfolio.Web.RazorAssemblyInfo.cache
+        ¦           ¦   Portfolio.Web.RazorAssemblyInfo.cs
+        ¦           ¦   Portfolio.Web.Resources.HomePage.fi.resources
+        ¦           ¦   Portfolio.Web.Resources.HomePage.resources
+        ¦           ¦   Portfolio.Web.Resources.SharedResource.fi.resources
+        ¦           ¦   Portfolio.Web.Resources.SharedResource.resources
+        ¦           ¦   Portfolio.Web.Resources.Validation.fi.resources
+        ¦           ¦   Portfolio.Web.sourcelink.json
+        ¦           ¦   Portfolio.Web.xml
+        ¦           ¦   staticwebassets.build.json
+        ¦           ¦   staticwebassets.development.json
+        ¦           ¦   staticwebassets.pack.json
+        ¦           ¦   
+        ¦           +---fi
+        ¦           ¦       Portfolio.Web.resources.cs
+        ¦           ¦       Portfolio.Web.resources.dll
+        ¦           ¦       
+        ¦           +---ref
+        ¦           ¦       Portfolio.Web.dll
+        ¦           ¦       
+        ¦           +---refint
+        ¦           ¦       Portfolio.Web.dll
+        ¦           ¦       
+        ¦           +---scopedcss
+        ¦           ¦   +---bundle
+        ¦           ¦   ¦       Portfolio.Web.styles.css
+        ¦           ¦   ¦       
+        ¦           ¦   +---Components
+        ¦           ¦   ¦   +---Layout
+        ¦           ¦   ¦   +---Navigation
+        ¦           ¦   ¦           NavMenu.razor.rz.scp.css
+        ¦           ¦   ¦           
+        ¦           ¦   +---Features
+        ¦           ¦   ¦   +---About
+        ¦           ¦   ¦   ¦       AboutPage.razor.rz.scp.css
+        ¦           ¦   ¦   ¦       
+        ¦           ¦   ¦   +---Contact
+        ¦           ¦   ¦   ¦       ContactPage.razor.rz.scp.css
+        ¦           ¦   ¦   ¦       
+        ¦           ¦   ¦   +---Demos
+        ¦           ¦   ¦   ¦       DemosPage.razor.rz.scp.css
+        ¦           ¦   ¦   ¦       
+        ¦           ¦   ¦   +---Home
+        ¦           ¦   ¦           HomePage.razor.rz.scp.css
+        ¦           ¦   ¦           
+        ¦           ¦   +---Layout
+        ¦           ¦   ¦       MainLayout.razor.rz.scp.css
+        ¦           ¦   ¦       
+        ¦           ¦   +---projectbundle
+        ¦           ¦           Portfolio.Web.bundle.scp.css
+        ¦           ¦           
+        ¦           +---staticwebassets
+        ¦                   msbuild.build.Portfolio.Web.props
+        ¦                   msbuild.buildMultiTargeting.Portfolio.Web.props
+        ¦                   msbuild.buildTransitive.Portfolio.Web.props
+        ¦                   msbuild.Portfolio.Web.Microsoft.AspNetCore.StaticWebAssets.props
+        ¦                   
+        +---Pages
+        ¦       _Host.cshtml
+        ¦       
+        +---Properties
+        ¦       launchSettings.json
+        ¦       
+        +---Resources
+        ¦       .gitkeep
+        ¦       HomePage.fi.resx
+        ¦       HomePage.resx
+        ¦       SharedResource.cs
+        ¦       SharedResource.fi.resx
+        ¦       SharedResource.resx
+        ¦       Validation.fi.resx
+        ¦       
+        +---Services
+        ¦   ¦   .gitkeep
+        ¦   ¦   
+        ¦   +---Localization
+        ¦           LocalizationServiceCollectionExtensions.cs
+        ¦           
+        +---wwwroot
+            ¦   .gitkeep
+            ¦   
+            +---css
+            ¦       .gitkeep
+            ¦       global.css
+            ¦       site.css
+            ¦       
+            +---favicon
+            ¦       favicon.png
+            ¦       
+            +---img
+                    .gitkeep
+                    

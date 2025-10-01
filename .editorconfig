@@ -1,4 +1,10 @@
 root = true
 
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
 [*.cs]
-file_header_template = Licensed under the MIT License.\n See LICENSE in the project root for license information.\n (c) {year} Saeed Babai — https://github.com/youruser
+file_header_template = Licensed under the MIT License.\n See LICENSE in the project root for license information.\n (c) {year} Saeed Babai ? https://github.com/youruser

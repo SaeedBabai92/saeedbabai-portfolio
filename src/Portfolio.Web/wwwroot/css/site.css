@@ -1,0 +1,88 @@
+/*
+    site.css
+    =============
+    Site-wide styles for layout, typography, and utility classes.
+    This file should only contain global layout and utility rules that are not page-specific.
+    
+    Author: [Your Name]
+    Last updated: [Date]
+*/
+
+/* === Layout Grid === */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* === Typography === */
+.heading-primary {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.heading-section {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* === Utility Classes === */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* === Accessibility === */
+:focus {
+    outline: 2px solid var(--green, #64ffda);
+    outline-offset: 2px;
+}
+
+/* === Responsive Helpers === */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+    .heading-primary {
+        font-size: 2rem;
+    }
+    .heading-section {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 0.25rem;
+    }
+}
+
+/* === End site.css === */

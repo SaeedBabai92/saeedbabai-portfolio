@@ -1,0 +1,11 @@
+/* TODO: Style contact section for brand-consistent callouts. */
+.contact {
+    padding: 2rem;
+    background-color: #fef3c7;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 191, 36, 0.35);
+}
+
+.contact h2 {
+    margin-top: 0;
+}

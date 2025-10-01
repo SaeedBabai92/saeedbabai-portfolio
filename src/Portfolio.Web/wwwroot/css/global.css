@@ -1,0 +1,71 @@
+/*
+    global.css
+    =============
+    Global CSS variables, color palette, and base element resets.
+    This file should only contain variables and resets, not layout or component rules.
+    
+    Author: [Your Name]
+    Last updated: [Date]
+*/
+
+:root {
+    /* === Colors === */
+    --color-bg: #0a192f;
+    --color-bg-light: #233554;
+    --color-primary: #64ffda;
+    --color-secondary: #8892b0;
+    --color-heading: #ccd6f6;
+    --color-text: #8892b0;
+    --color-focus: #64ffda;
+    --color-white: #fff;
+    --color-black: #000;
+    
+    /* === Typography === */
+    --font-sans: 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-mono: 'Fira Mono', 'SF Mono', 'Roboto Mono', monospace;
+    --fz-base: 16px;
+    --fz-lg: 18px;
+    --fz-xl: 24px;
+    --fz-heading: 32px;
+    --border-radius: 4px;
+    --transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* === Reset & Base === */
+html {
+    box-sizing: border-box;
+    font-size: 100%; /* 16px base for easy rem scaling */
+    scroll-behavior: smooth;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--fz-base);
+    background: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg {
+    max-width: 100%;
+    display: block;
+}
+
+button, input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+::selection {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+/* === End global.css === */

@@ -1,11 +1,27 @@
 {
-    "configurations": [
-        {
-            "name": "C#: Portfolio.Web [http]",
-            "type": "dotnet",
-            "request": "launch",
-            "projectPath": "${workspaceFolder}\\src\\Portfolio.Web\\Portfolio.Web.csproj",
-            "launchConfigurationId": "TargetFramework=;http"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Portfolio.Web (https)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/src/Portfolio.Web/Portfolio.Web.csproj"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:7267;http://localhost:5147"
+      },
+      "console": "integratedTerminal",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      }
+    }
+  ]
 }

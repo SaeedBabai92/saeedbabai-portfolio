@@ -1,0 +1,17 @@
+/* TODO: Replace typography and spacing with brand tokens. */
+.about {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.about__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.about__links a {
+    font-weight: 600;
+}
