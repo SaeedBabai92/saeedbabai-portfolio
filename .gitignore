@@ -12,8 +12,7 @@
 
 # IDE
 .vs/
-.vscode/*
-!.vscode/launch.json
+
 
 # OS
 .DS_Store
