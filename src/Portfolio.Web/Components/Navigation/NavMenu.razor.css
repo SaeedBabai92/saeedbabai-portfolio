@@ -1,0 +1,115 @@
+/* ===== NavMenu.razor.css =====
+   Tavoite: siisti, responsiivinen navbar + toimiva hamburger
+   Luokat: .nav, .nav-list, .hamburger, .bar, .open
+*/
+
+/* Perusvärit (voit halutessa muokata) */
+:root {
+    --bg: #0f2137;
+    --text: #e6eefb;
+    --text-muted: #a6b3c7;
+    --accent: #6aa0ff;
+    --bp: 1024px;
+    /* breakpoint mobiilille */
+}
+
+/* NAV-KONTINERI */
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-height: 56px;
+}
+
+/* HAMBURGER-NAPPI (piilossa desktopilla) */
+.hamburger {
+    display: none;
+    border: 0;
+    background: transparent;
+    width: 40px;
+    height: 32px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 6px 0;
+    background: var(--text);
+    transition: transform .2s ease, opacity .2s ease;
+    border-radius: 2px;
+}
+
+/* LINKKILISTA */
+.nav-list {
+    list-style: none;
+    /* poistetaan bulletit */
+    margin: 0;
+    /* reset marginit */
+    padding: 0;
+    /* reset padding */
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--text);
+    opacity: .85;
+}
+
+.nav-list li a:hover,
+.nav-list li a.active {
+    opacity: 1;
+    color: var(--accent);
+}
+
+/* ====== Mobiili (≤ 1024px) ====== */
+@media (max-width: var(--bp)) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-list {
+        position: absolute;
+        left: 0;
+        top: 56px;
+        /* sama kuin nav min-height */
+        width: 100%;
+        flex-direction: column;
+        gap: .5rem;
+        background: rgba(0, 0, 0, .35);
+        backdrop-filter: saturate(120%) blur(4px);
+        padding: 1rem 1.25rem;
+
+        /* suljettuna */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .25s ease;
+    }
+
+    /* avattuna (NavMenu.razor lisää .open) */
+    .nav-list.open {
+        max-height: 60vh;
+    }
+
+    /* hamburger-animaatio (valinnainen kevyesti) */
+    .bar.open:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .bar.open:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bar.open:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}

@@ -1,0 +1,95 @@
+/* Layout wrapper */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Hero */
+.home-hero {
+    padding: 4rem 0 3rem;
+}
+
+.home-hero .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* Copy */
+.home-hero__copy h1 {
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+    font-size: clamp(1.8rem, 2.5vw + 1rem, 3rem);
+}
+
+.home-hero__copy .lead {
+    margin: 0 0 1.5rem;
+    font-size: clamp(1rem, 0.6vw + 0.9rem, 1.25rem);
+    opacity: 0.9;
+}
+
+/* Actions */
+.home-hero__actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.1rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Primary & Ghost buttons – voit sovittaa teeman värit */
+.btn-primary {
+    background: var(--brand, #3b82f6);
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, .25);
+}
+
+.btn-primary:focus {
+    outline: 3px solid rgba(59, 130, 246, .35);
+}
+
+.btn-ghost {
+    background: transparent;
+    color: inherit;
+    border-color: rgba(0, 0, 0, .15);
+}
+
+@media (prefers-color-scheme: dark) {
+    .btn-ghost {
+        border-color: rgba(255, 255, 255, .25);
+    }
+}
+
+/* Visual placeholder */
+.home-hero__visual {
+    min-height: 220px;
+    border-radius: 1rem;
+    background:
+        radial-gradient(80% 60% at 20% 10%, rgba(59, 130, 246, .25), transparent 60%),
+        radial-gradient(60% 60% at 90% 20%, rgba(16, 185, 129, .25), transparent 60%),
+        linear-gradient(135deg, rgba(0, 0, 0, .03), rgba(0, 0, 0, .0));
+}
+
+/* Desktop split */
+@media (min-width: 900px) {
+    .home-hero {
+        padding: 6rem 0 4rem;
+    }
+
+    .home-hero .container {
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+}
