@@ -23,3 +23,6 @@ Moderni Blazor Server -pohjainen työnhakuportfolio, joka asettaa kerrosarkkiteh
 - Korvaa placeholder-palvelut oikealla datahaulla (DAL + ulkoiset integraatiot).
 - Rakenna validoinnit ja mapperit, kun DTO:t tarkentuvat.
 - Laajenna UI-tyylejä design systemin mukaisiksi ennen tuotantojulkaisua.
+
+## Navbar
+This branch initializes the Navbar feature.
