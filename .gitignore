@@ -12,7 +12,7 @@
 
 # IDE
 .vs/
-.vscode/
+
 
 # OS
 .DS_Store
